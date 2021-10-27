@@ -1059,7 +1059,7 @@ h1, h2, h3, h4, h5, h6, figure {
   color: rgba(0, 0, 0, 0.3);
 }
 .fh5co-blog .blog-text span.comment a i {
-  color: #EA9215;
+  color: #a18262;
   padding-left: 7px;
 }
 .fh5co-blog .blog-text h3 {
@@ -1091,10 +1091,10 @@ h1, h2, h3, h4, h5, h6, figure {
   position: relative;
 }
 .price-box.popular .btn-select-plan {
-  background: #EA9215;
+  background: #a18262;
 }
 .price-box.popular .price {
-  color: #EA9215;
+  color: #a18262;
 }
 .price-box .btn-select-plan {
   padding: 10px 20px;
@@ -1457,21 +1457,21 @@ h1, h2, h3, h4, h5, h6, figure {
 }
 
 .btn-primary {
-  background: #EA9215;
+  background: #a18262;
   color: #fff;
-  border: 2px solid #EA9215;
+  border: 2px solid #a18262;
 }
 .btn-primary:hover, .btn-primary:focus, .btn-primary:active {
-  background: #ec9d2c !important;
-  border-color: #ec9d2c !important;
+  background: #a18262 !important;
+  border-color: #a18262 !important;
 }
 .btn-primary.btn-outline {
   background: transparent;
-  color: #EA9215;
-  border: 2px solid #EA9215;
+  color: #8a7e6d;
+  border: 2px solid #804000;
 }
 .btn-primary.btn-outline:hover, .btn-primary.btn-outline:focus, .btn-primary.btn-outline:active {
-  background: #EA9215;
+  background: #804000;
   color: #fff;
 }
 
@@ -1514,21 +1514,21 @@ h1, h2, h3, h4, h5, h6, figure {
 }
 
 .btn-warning {
-  background: #f0ad4e;
+  background: #a18262;
   color: #fff;
-  border: 2px solid #f0ad4e;
+  border: 2px solid #a18262;
 }
 .btn-warning:hover, .btn-warning:focus, .btn-warning:active {
-  background: #eea236 !important;
-  border-color: #eea236 !important;
+  background: #a18262 !important;
+  border-color: #a18262 !important;
 }
 .btn-warning.btn-outline {
   background: transparent;
-  color: #f0ad4e;
-  border: 2px solid #f0ad4e;
+  color: #a18262;
+  border: 2px solid #a18262;
 }
 .btn-warning.btn-outline:hover, .btn-warning.btn-outline:focus, .btn-warning.btn-outline:active {
-  background: #f0ad4e;
+  background: #a18262;
   color: #fff;
 }
 
@@ -1601,7 +1601,7 @@ h1, h2, h3, h4, h5, h6, figure {
 .form-control:active, .form-control:focus {
   outline: none;
   box-shadow: none;
-  border-color: #EA9215;
+  border-color: #a18262;
 }
 
 .row-pb-md {
