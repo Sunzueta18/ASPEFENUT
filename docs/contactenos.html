@@ -29,8 +29,33 @@
 
 <body class="page header-fixed no-sidebar site-layout-full-width header-style-3 menu-has-search menu-has-cart">
 <!--BURBUJA DE CHAT MESSENGER-->
-<!-- Load Facebook SDK for JavaScript -->
+<!-- Messenger plugin de chat Code -->
+    <div id="fb-root"></div>
 
+    <!-- Your plugin de chat code -->
+    <div id="fb-customer-chat" class="fb-customerchat">
+    </div>
+
+    <script>
+      var chatbox = document.getElementById('fb-customer-chat');
+      chatbox.setAttribute("page_id", "100530795599061");
+      chatbox.setAttribute("attribution", "biz_inbox");
+
+      window.fbAsyncInit = function() {
+        FB.init({
+          xfbml            : true,
+          version          : 'v12.0'
+        });
+      };
+
+      (function(d, s, id) {
+        var js, fjs = d.getElementsByTagName(s)[0];
+        if (d.getElementById(id)) return;
+        js = d.createElement(s); js.id = id;
+        js.src = 'https://connect.facebook.net/es_LA/sdk/xfbml.customerchat.js';
+        fjs.parentNode.insertBefore(js, fjs);
+      }(document, 'script', 'facebook-jssdk'));
+    </script>
 <!--FIN DEBURBUJA DE CHAT MESSENGER-->
 <div id="wrapper" class="animsition">
 <div id="page" class="clearfix">
@@ -64,7 +89,7 @@
             	<div class="wrap-inner">
                     <div id="site-logo" class="clearfix">
                     	<div id="site-logo-inner">
-                            <a href="/"  rel="home" ><img width="450px" height="50px" src="img2/TRYIT.jpg" alt=""></a>
+                            <a href="/"  rel="home" ><img width="450px" height="50px" src="Img2/TRYIT.jpg" alt=""></a>
                         </div>
                     </div><!-- #site-logo -->
 
@@ -105,7 +130,7 @@
                             <li class="menu-item"><a href="sobre-nosotros.html">SOBRE NOSOTROS</a></li>
                             <li class="menu-item"><a href="universidades.html">UNIVERSIDADES</a></li>
                             <li class="menu-item"><a href="contactenos.html">CONTACTO</a></li>
-                            <li class="menu-item"><a href="enan.html">EXAMEN DE NUTRICION ENAN</a></li>
+                            <li class="menu-item"><a href="enan.html">EXAMEN NACIONAL DE NUTRICION ENAN</a></li>
                          
                         </ul>
                     </nav><!-- /#main-nav -->
@@ -248,7 +273,7 @@
 
                         <ul class="wprt-links clearfix col2">
                             <li class="style-2"><a href="inicio.html">INICIO</a></li>
-                            <li class="style-2"><a href="enan.html">CURSOS</a></li>
+                            <li class="style-2"><a href="cursos.html">CURSOS</a></li>
                             <li class="style-2"><a href="sobre-nosotros.html">CONOCENOS</a></li>
                             <li class="style-2"><a href="universidades.html">UNIVERSIDADES</a></li>
                             <li class="style-2"><a href="contactenos.html">CONTACTANOS</a></li>

@@ -753,7 +753,7 @@
 .wprt-list > div a:hover { opacity: 0.75; }
 /* Style 1 */
 .wprt-list.style-1 > div { padding: 0; margin-bottom: 3px; }
-.wprt-list.style-1 > div > span { padding-left: 34px; }
+.wprt-list.style-1 > div > span { margin-bottom: 1rem;  padding-left: 34px; }
 .wprt-list.style-1 .icon { font-size: 8px; width: 18px; height: 18px; border-radius: 50%; background-color: #e8e8e8; color: #1c63b8; text-align: center; line-height: 18px; }
 /* Style 2 */
 .wprt-list.style-2 > div { padding: 0; margin-bottom: 3px; }

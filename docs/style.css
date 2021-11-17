@@ -1447,6 +1447,10 @@
 
 .icon-wrap:after, .icon-wrap:hover  { background-color: #f7eca4; }
 
+.elm-btn{
+	margin-bottom: 1rem;
+}
+
 
 
 
